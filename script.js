@@ -40,9 +40,9 @@ function renderDuckProduct() {
 
   while(DuckProduct1 === DuckProduct2 ) {
     DuckProduct2 = getRandomNumber();
-  }if(DuckProduct2 === DuckProduct3 ) {
+  }while(DuckProduct2 === DuckProduct3 ) {
     DuckProduct3 = getRandomNumber();
-  }if(DuckProduct3 === DuckProduct1){
+  }while(DuckProduct3 === DuckProduct1){
     DuckProduct1 = getRandomNumber()
   }
   //image1 is the global variable created .src and .alt are the property of the object that is accessing img the state.allDuckProductArray is the array we are targeting the pick a image out of [DuckProduct1] is the random number to select the random number that stands for an image in the array 
